@@ -136,14 +136,14 @@ mysql> SELECT table_name, table_rows
 
 这个数据库的表接多了，不一一探讨了。
 
-有些数据可能导不进去，数据差不多就行了。
 
-### 我在导入的时候遇到了下面的问题
 
-长时间不行的话，就直接关闭，检查下数据库，有数据就行。
+### 其他
 
-- 命令行卡在哪里，不知道是不是死机了
-- `select count(*) from sample_ip.ip_address_int;`太慢了，不知道数据库是什么情况
-- `select count(*) from sample_ip.ip_address_varchar20;`甚至没有结果。。。卡死了
-- 强行关闭命令行后，发现varch20的数据比较少。
+- 有些数据可能导不进去
+
+- 长时间不行的话，就直接关闭shell，然后检查下数据库
+- 数据差不多就行了。。
+
+
 
